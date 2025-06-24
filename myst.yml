@@ -12,6 +12,8 @@ project:
     - name: Felix David Reuß
     - name: Luka Jović
   copyright: '2024'
+  settings:
+    output_matplotlib_strings: remove
   toc:
     - file: README.md
     - title: Preamble
@@ -21,15 +23,15 @@ project:
       children:
         - file: notebooks/courses/microwave-remote-sensing.ipynb
           children:
-            - file: notebooks/courses/microwave-remote-sensing/01_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/02_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/03_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/04_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/05_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/06_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/07_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/08_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/09_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-01.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-02.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-03.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-04.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-05.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-06.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-07.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-08.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/Exercise-09.ipynb
     - title: Templates
       children:
         - file: notebooks/templates/prereqs-templates.ipynb

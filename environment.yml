@@ -6,8 +6,9 @@ dependencies:
   - bokeh
   - cartopy
   - cmcrameri
-  - dask==2025.2.0
+  - dask
   - datashader
+  - datasets
   - folium
   - geopandas
   - geoviews
@@ -40,6 +41,7 @@ dependencies:
   - rasterio
   - requests
   - rioxarray
+  - s3fs
   - scikit-image
   - scikit-learn
   - scipy
